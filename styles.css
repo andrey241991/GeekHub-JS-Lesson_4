@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.container-top-section{
+    height: 500px;
+    background: grey;
+    position: relative;
+}
+
+.container-bottom-section{
+    background: blue;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-title{
+    text-align: center;
+}
+
+.inner-section{
+    width: 350px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+button{
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.points-holder{
+    font-size: 24px;
+    color: white;
+}
+
+.points-counter{
+
+}
+
+.div-circle{
+    position: absolute;
+    background: red;
+    padding: 10px 15px;
+    border: 1px solid green;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    border-radius: 50%;
+}
